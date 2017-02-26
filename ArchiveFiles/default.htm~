@@ -45,7 +45,7 @@ function MM_swapImage() { //v3.0
 
 </HEAD>
 
-<BODY bgcolor="#FFFFFF" background="texture_a4.JPG" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="MM_preloadImages('top_links_a_calendar_arrows.JPG','top_links_a_workshops_arrows.JPG','top_links_a_music_arrows.JPG','top_links_a_writings_arrows.JPG','top_links_a_bio_arrows.JPG','top_links_a_contact_arrows.JPG')" >
+<BODY bgcolor="#FFFFFF" background="texture_a4.jpg" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="MM_preloadImages('images/top_links_a_calendar_arrows.jpg','images/top_links_a_workshops_arrows.jpg','images/top_links_a_music_arrows.jpg','images/top_links_a_writings_arrows.jpg','images/top_links_a_bio_arrows.jpg','images/top_links_a_contact_arrows.jpg')" >
 
 <P align="center"> 
 
@@ -55,21 +55,21 @@ function MM_swapImage() { //v3.0
       <p align="center">
         <font size="-2"> 
           <font size="-2">
-            <img src="top_links_edge_left.JPG" width="8" height="21" />
-            <img src="top_links_new_right.JPG" width="46" height="21" />
-            <img src="top_links_a_home_page.JPG" width="55" height="21" name="Home" alt="Home" />
-            <img src="top_links_a_spacer.JPG" width="4" height="21" />
-            <a href="calendar.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Calendar','','top_links_a_calendar_arrows.JPG',1)">
-              <img src="top_links_a_calendar.JPG" width="76" height="21" name="Calendar" border="0" alt="Calendar">
+            <img src="images/top_links_edge_left.jpg" width="8" height="21" />
+            <img src="images/top_links_new_right.jpg" width="46" height="21" />
+            <img src="images/top_links_a_home_page.jpg" width="55" height="21" name="Home" alt="Home" />
+            <img src="images/top_links_a_spacer.jpg" width="4" height="21" />
+            <a href="calendar.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Calendar','','images/top_links_a_calendar_arrows.jpg',1)">
+              <img src="images/top_links_a_calendar.jpg" width="76" height="21" name="Calendar" border="0" alt="Calendar">
             </a>
             <font size="-2">
-              <img src="top_links_a_spacer.JPG" width="4" height="21">
+              <img src="images/top_links_a_spacer.jpg" width="4" height="21">
             </font>
-            <a href="workshops.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Workshops','','top_links_a_workshops_arrows.JPG',1)">
-		    <img src="top_links_a_workshops.JPG" width="92" height="21" name="Workshops" border="0" alt="Workshops">
-	    </a><font size="-2"><img src="top_links_a_spacer.JPG" width="4" height="21"></font><a href="music.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Music','','top_links_a_music_arrows.JPG',1)"><img src="top_links_a_music.JPG" width="57" height="21" name="Music" border="0" alt="Music"></a><font size="-2"><img src="top_links_a_spacer.JPG" width="4" height="21"></font><a href="writings.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Writings','','top_links_a_writings_arrows.JPG',1)"><img src="top_links_a_writings.JPG" width="70" height="21" name="Writings" border="0" alt="Writings"></a><font size="-2"><img src="top_links_a_spacer.JPG" width="4" height="21"></font><a href="bio.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Bio','','top_links_a_bio_arrows.JPG',1)"><img src="top_links_a_bio.JPG" width="41" height="21" name="Bio" border="0" alt="Bio"></a><font size="-2"><img src="top_links_a_spacer.JPG" width="4" height="21"></font><a href="contact.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Contact','','top_links_a_contact_arrows.JPG',1)"><img src="top_links_a_contact.JPG" width="69" height="21" name="Contact" border="0" alt="Contact"></a><img src="top_links_new_right.JPG" width="46" height="21"><img src="top_links_edge_right.JPG" width="8" height="21"><br>
+            <a href="workshops.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Workshops','','images/top_links_a_workshops_arrows.jpg',1)">
+		    <img src="images/top_links_a_workshops.jpg" width="92" height="21" name="Workshops" border="0" alt="Workshops">
+	    </a><font size="-2"><img src="images/top_links_a_spacer.jpg" width="4" height="21"></font><a href="music.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Music','','images/top_links_a_music_arrows.jpg',1)"><img src="images/top_links_a_music.jpg" width="57" height="21" name="Music" border="0" alt="Music"></a><font size="-2"><img src="images/top_links_a_spacer.jpg" width="4" height="21"></font><a href="writings.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Writings','','images/top_links_a_writings_arrows.jpg',1)"><img src="images/top_links_a_writings.jpg" width="70" height="21" name="Writings" border="0" alt="Writings"></a><font size="-2"><img src="images/top_links_a_spacer.jpg" width="4" height="21"></font><a href="bio.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Bio','','images/top_links_a_bio_arrows.jpg',1)"><img src="images/top_links_a_bio.jpg" width="41" height="21" name="Bio" border="0" alt="Bio"></a><font size="-2"><img src="images/top_links_a_spacer.jpg" width="4" height="21"></font><a href="contact.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Contact','','images/top_links_a_contact_arrows.jpg',1)"><img src="images/top_links_a_contact.jpg" width="69" height="21" name="Contact" border="0" alt="Contact"></a><img src="images/top_links_new_right.jpg" width="46" height="21"><img src="images/top_links_edge_right.jpg" width="8" height="21"><br>
 
-        <img src="mamas_minstrel_new_c_om-opt.jpg" width="600" height="121" alt="Mama's Minstrel | Nancy Vedder-Shults, Ph.D. | A Cultural Creatives Website"></font><br>
+        <img src="images/mamas_minstrel_new_c_om-opt.jpg" width="600" height="121" alt="Mama's Minstrel | Nancy Vedder-Shults, Ph.D. | A Cultural Creatives Website"></font><br>
 
 
 
@@ -83,7 +83,7 @@ function MM_swapImage() { //v3.0
 
       <p align="left"><font size="-2"> </font> 
       <img src="images/nancymug_home2.jpg" width="200" height="246" align="left" style="padding-right: 10px;" alt="Nancy Vedder-Shults">
-      <img src="M_busorama_35_ochre_letter.JPG" width="27" height="29" alt="M">ama's 
+      <img src="images/M_busorama_35_ochre_letter.jpg" width="27" height="29" alt="M">ama's 
 
         Minstrel? Gaia's Grrrl? These were the two names I thought of calling 
 
@@ -117,7 +117,7 @@ function MM_swapImage() { //v3.0
 
         <br>
 
-        <img src="concretion_edited_f.jpg" width="218" height="322" align="right" vspace="0" hspace="6">Through 
+        <img src="images/concretion_edited_f.jpg" width="218" height="322" align="right" vspace="0" hspace="6">Through 
 
         play? Through stories? Through song? Aren't these the tools of a child? 
 
@@ -157,7 +157,7 @@ function MM_swapImage() { //v3.0
 
 
 
-                  <div align="center"><img src="transpix.GIF" width="1" height="1"></div>
+                  <div align="center"><img src="images/transpix.GIF" width="1" height="1"></div>
 
 
 
@@ -205,7 +205,7 @@ function MM_swapImage() { //v3.0
 
 
 
-                  <div align="center"><img src="transpix.GIF" width="1" height="1"></div>
+                  <div align="center"><img src="images/transpix.GIF" width="1" height="1"></div>
 
 
 
@@ -457,7 +457,7 @@ function MM_swapImage() { //v3.0
 
 
 
-            <div align="center"><img src="transpix.GIF" width="1" height="1"></div>
+            <div align="center"><img src="images/transpix.GIF" width="1" height="1"></div>
 
 
 
@@ -485,7 +485,7 @@ function MM_swapImage() { //v3.0
 
         </a> 
 
-      <p align="center"> <img src="oak_b-opt.jpg" width="235" height="194"> <br>
+      <p align="center"> <img src="images/oak_b-opt.jpg" width="235" height="194"> <br>
 
       </p>
 
