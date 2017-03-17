@@ -1,0 +1,342 @@
+body {
+    font-size: 100%;
+    color: #64492D;
+    font-family: verdana, arial, helvetica, sans-serif;
+}
+
+td {
+    font-size: 100%;
+    color: #64492D;
+    font-family: verdana, arial, helvetica, sans-serif;
+}
+
+tr {
+    font-size: 100%;
+    color: #64492D;
+    font-family: verdana, arial, helvetica, sans-serif;
+}
+
+li, ul {
+    font-family: verdana, arial, helvetica, sans-serif;
+}
+
+big {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size:105%;
+    font-weight: 800;
+}
+
+small {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size:85%;
+}
+
+b {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+i, u {
+    font-family: verdana, arial, helvetica, sans-serif;
+}
+
+h1 {
+    color: #000000;
+    font-family: arial, helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 130%;
+}
+
+h2 {
+    color: #000000;
+    font-family: arial, helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 120%;
+}
+
+h3 {
+    color: #000000;
+    font-family: arial, helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 110%;
+}
+
+h5 {
+    color: #000000;
+    font-family: arial, helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 75%;
+}
+
+.smallheadline2 {
+    font-weight: bold;
+    color: #33291E;
+    font-size: 92%;
+}
+.HeadingOne {
+    color: #000000;
+    font-family: arial, helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 120%;
+}
+
+.HeadingTwo {
+    color: #000000;
+    font-family: arial, helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 110%;
+}
+
+.Title {
+    color: #264bae;
+    font-family: arial, helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 110%;
+}
+
+a:link {
+    color: #41693D;
+    font-weight: bold;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-variant: normal;
+    letter-spacing: .1em;
+    text-decoration: underline;
+    font-size: 95%;
+}
+
+a:active {
+    color: #931406;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 95%;
+}
+
+a:hover {
+    color: #931406;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 95%;
+}
+
+a:visited {
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: .1em;
+    color: #337030;
+    font-size: 95%;
+}
+
+li {
+    line-height: 1.5;
+}
+
+/* Navbar */
+
+table.navbar {
+    background-image: url("../images/top_links_new_right.jpg");
+    background-size: 45px 27px;
+    border: none;
+    border-collapse: collapse;
+}
+
+table.navbar td {
+    padding: 0px 0px 0px 0px; 
+    font-size: .8em;
+    height: 27px;
+    line-height: 1.7em;
+    font-weight: 200;
+    vertical-align: top;
+    text-align: center;
+}
+
+table.navbar td.navStart {
+    background-image: url("../images/top_links_edge_left.jpg");
+    background-size: 10px 27px;
+    background-repeat: no-repeat;
+    padding: 0 1em;
+}
+
+table.navbar td.navEnd {
+    background-image: url("../images/top_links_edge_right.jpg");
+    background-size: 10px 27px;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    padding: 0 1em;
+}
+
+.navbar a:link, .navbar a:visited, .navbar a:hover, .navbar a:active {
+    color: #FFFFFF;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar a:before, .navbar a:after {
+    content: '\0000a0\0000a0';
+}
+
+.navbar a:hover {
+    background-image: url("../images/arrowRightHovered.png"), url("../images/arrowLefttHovered.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: left, right;
+}
+
+.navbar td.selected {
+    background-image: url("../images/arrowSelected2.png");
+    background-repeat: no-repeat;
+    background-position: 50% 17px;
+}
+
+.navbar td.selected a {
+    font-size: 1.1em;
+}
+
+
+.mainheadline {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: .2em;
+    word-spacing: normal;
+    white-space: nowrap;
+    font-size: 120%;
+}
+
+.pageheading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    font-style: normal;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.smallheadline1 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 95%;
+    font-style: normal;
+    font-weight: bold;
+    font-variant: normal;
+    letter-spacing: 0.1em;
+    color: #990000;
+}
+
+.nolink {
+    font-size: 98%;
+    font-weight: normal;
+}
+
+.heading_one {
+    font-weight: bold;
+    color: #A96538;
+}
+
+.quotes {
+    font-style: italic;
+    color: #9D3E1E;
+}
+
+/*
+ul {
+	overflow: hidden;
+}*/
+
+div.box {
+	clear: both;
+	display: block;
+}
+
+aside {
+	font-size: 0.8em;
+    float: right;
+}
+
+aside span {
+    float: right;
+    text-align: right;
+}
+
+/*Calendar Page*/
+
+table.calendarEvents tr td:first-child {
+    white-space: nowrap;
+    padding-right: 20px;
+}
+
+table.calendarEvents td {
+	vertical-align: top;
+	padding-bottom: 10px;
+}
+
+/*Quote Rotator*/
+/*From http://www.jqueryscript.net/rotator/jQuery-Quote-Rotator-with-A-Slim-Progress-Indicator-simpleQuote.html*/
+
+.cbp-qtcontent img {
+	padding: 10px;
+	width: 300px;
+	float: left;
+}
+
+.cbp-qtcontent img.right {
+	padding: 10px;
+	width: 300px;
+	float: right;
+}
+
+.cbp-qtrotator {
+	width: 100%;
+	height: 180px;
+	position: relative;
+	float: left;
+	margin: 0;
+	padding-top: 11px;
+	clear: both;
+}
+
+.cbp-qtcontent {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	min-height: 180px;
+	top: 0;
+	z-index: 2;
+	display: none
+}
+
+.cbp-qtrotator .cbp-qtcontent.current {
+	display: block
+}
+
+.cbp-qtrotator blockquote {
+	margin: 40px 0 0 0;
+	padding: 0
+}
+
+.cbp-qtrotator blockquote p {
+	font-size: 2em;
+	color: #888;
+	font-weight: 300;
+	margin: 0.4em 0 1em
+}
+
+.cbp-qtrotator blockquote footer {
+	font-size: 1.2em
+}
+
+.cbp-qtrotator blockquote footer:before {
+	content: '― '
+}
+
+.cbp-qtrotator .cbp-qtcontent img {
+	float: right;
+	margin: 0 0 0 50px
+}
+
+.cbp-qtprogress {
+	position: absolute;
+	background: #47a3da;
+	height: 1px;
+	width: 0%;
+	z-index: 1000
+}

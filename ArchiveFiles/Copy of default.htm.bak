@@ -1,16 +1,16 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 
-<HTML>
-<HEAD>
-  <META http-equiv="Content-Style-Type" content="text/css">
-	<META name="Keywords" content="madison, mount horeb, mt horeb, wisconsin, travel, accommodation, accommodations, bed and breakfast, bed & breakfast, inn, country, farm, rural, vacation" />
-	  <META name="Description" content="Cradled in a secluded rural valley, our Norwegian B & B near Mt. Horeb, Wisconsin is a magical hideaway convenient to many Southern Wisconsin tourist attractions. " />
+<html>
+<head>
+  <meta http-equiv="Content-Style-Type" content="text/css">
+	<meta name="Keywords" content="madison, mount horeb, mt horeb, wisconsin, travel, accommodation, accommodations, bed and breakfast, bed & breakfast, inn, country, farm, rural, vacation" />
+	  <meta name="Description" content="Cradled in a secluded rural valley, our Norwegian B & B near Mt. Horeb, Wisconsin is a magical hideaway convenient to many Southern Wisconsin tourist attractions. " />
 
-  <TITLE>Mama's Minstrel - honoring Gaia through songs, workshops and sacred play - Nancy Vedder-Shults, Ph.D.</TITLE>
+  <title>Mama's Minstrel - honoring Gaia through songs, workshops and sacred play - Nancy Vedder-Shults, Ph.D.</TITLE>
 
   
 
-<LINK REL=STYLESHEET HREF="mamasminstrel.css" type="text/css">
+<link REL=STYLESHEET HREF="style/mamasminstrel.css" type="text/css">
 
 
 
@@ -66,7 +66,7 @@ function MM_swapImage() { //v3.0
 
 </HEAD>
 
-<BODY bgcolor="#FFFFFF" background="texture_a4.jpg" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="MM_preloadImages('images/top_links_a_contact_arrows.jpg','images/top_links_a_calendar_arrows.jpg','images/top_links_a_workshops_arrows.jpg','images/top_links_a_keynotes_arrows.jpg','images/top_links_a_music_arrows.jpg','images/top_links_a_writings_arrows.jpg','images/top_links_a_bio_arrows.jpg')" >
+<BODY bgcolor="#FFFFFF" background="images/texture_a4.jpg" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="MM_preloadImages('images/top_links_a_contact_arrows.jpg','images/top_links_a_calendar_arrows.jpg','images/top_links_a_workshops_arrows.jpg','images/top_links_a_keynotes_arrows.jpg','images/top_links_a_music_arrows.jpg','images/top_links_a_writings_arrows.jpg','images/top_links_a_bio_arrows.jpg')" >
 
 <P align="center"> 
 
