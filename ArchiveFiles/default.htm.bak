@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!DOCTYPE html>
 
 <html>
 <head>
@@ -48,7 +48,7 @@ function MM_swapImage() { //v3.0
 
 
 
-</HEAD>
+</head>
 
 
 
@@ -506,7 +506,7 @@ function MM_swapImage() { //v3.0
 
 
 
-</BODY></HTML>
+</body></html>
 
 
 

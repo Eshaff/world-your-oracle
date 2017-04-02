@@ -7,176 +7,75 @@
     <meta name="Description" content="Nancy's work is rooted in ritual, story and song as well as in feminist thealogy and scholarship. Listen to cuts from her recordings, read about her workshops and enjoy several of her stories as well as excerpts from her book-in-progress EMBRACING THE DRAGON.">
     <title>Mama's Minstrel - honoring Gaia through songs, workshops and sacred play - Nancy Vedder-Shults, Ph.D.</TITLE>
     <link REL=STYLESHEET HREF="style/mamasminstrel.css" type="text/css">
-    <script language="JavaScript">
-        //<!--
-        function MM_preloadImages() { //v3.0
-            var d = document;
-            if (d.images) {
-                if (!d.MM_p) d.MM_p = new Array();
 
-                var i, j = d.MM_p.length,
-                    a = MM_preloadImages.arguments;
-                for (i = 0; i < a.length; i++)
+    <script data-main="app/app.js" src="app/lib/require.js"></script>
+    <!-- Core CSS File. The CSS code needed to make eventCalendar works -->
+    <link rel="stylesheet" href="app/lib/jQueryEventCalendar/css/eventCalendar.css">
 
-                    if (a[i].indexOf("#") != 0) {
-                        d.MM_p[j] = new Image;
-                        d.MM_p[j++].src = a[i];
-                    }
-            }
-        }
+    <!-- Theme CSS file: it makes eventCalendar nicer -->
+    <link rel="stylesheet" href="app/lib/jQueryEventCalendar/css/eventCalendar_theme_responsive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
 
-        function MM_swapImgRestore() { //v3.0
-            var i, x, a = document.MM_sr;
-            for (i = 0; a && i < a.length && (x = a[i]) && x.oSrc; i++) x.src = x.oSrc;
-        }
+    <link href="/app/lib/kendo-ui-core/css/web/kendo.common.core.min.css" rel="stylesheet" />
+    <link href="/app/lib/kendo-ui-core/css/web/kendo.default.min.css" rel="stylesheet" />
+</head>
 
-        function MM_findObj(n, d) { //v3.0
-            var p, i, x;
-            if (!d) d = document;
-            if ((p = n.indexOf("?")) > 0 && parent.frames.length) {
+<BODY bgcolor="#FFFFFF" background="images/texture_a4.jpg" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+    <div style="width:900px;margin: 0 auto;">
 
-                d = parent.frames[n.substring(p + 1)].document;
-                n = n.substring(0, p);
-            }
+        <div id="nav"></div>
 
-            if (!(x = d[n]) && d.all) x = d.all[n];
-            for (i = 0; !x && i < d.forms.length; i++) x = d.forms[i][n];
+        <p>
+            <img src="images/AntlerBird-sm-opt.jpg" width="154" height="200" align="right">
+        </p>
 
-            for (i = 0; !x && d.layers && i < d.layers.length; i++) x = MM_findObj(n, d.layers[i].document);
-            return x;
-        }
+        <br>
+        <h1 class="heading_one">Calendar</h1>
 
-        function MM_swapImage() { //v3.0
-            var i, j = 0,
-                x, a = MM_swapImage.arguments;
-            document.MM_sr = new Array;
-            for (i = 0; i < (a.length - 2); i += 3)
+        <div class="myKendoWindow">
+            My message
+        </div>
 
-                if ((x = MM_findObj(a[i])) != null) {
-                    document.MM_sr[j++] = x;
-                    if (!x.oSrc) x.oSrc = x.src;
-                    x.src = a[i + 2];
-                }
-        }
-    //-->
-    </script>
-</HEAD>
+        <p>
+            "My book is out! Fair Winds Press published it in March this year. So I'm off and running to a variety of events, listed
+            below. If you would like to sign up for one of my classes or workshops, I now have a Paypal account that you
+            can use. You'll notice that it's less expensive if you prepay. However, if you would prefer, you can pay at the
+            event. But please RSVP beforehand. Then I'll know how many people will be attending. Simply drop me an email
+            at
+            <a href="mailto:Nancy@mamamsminstrel.net">Nancy@mamamsminstrel.net</a>. In either case, I will confirm your registration
+            by email.
+        </p>
 
-<BODY bgcolor="#FFFFFF" background="images/texture_a4.jpg" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"
-    onLoad="MM_preloadImages('images/top_links_a_contact_arrows.jpg','images/top_links_a_workshops_arrows.jpg','images/top_links_a_music_arrows.jpg','images/top_links_a_writings_arrows.jpg','images/top_links_a_bio_arrows.jpg','images/top_links_a_home_arrows.jpg')">
-    <P align="center">
-        <table width="900" border="0" cellspacing="0" cellpadding="0" align="center">
-            <tr valign="top">
-                <td height="961">
-                    <div style="margin: 0 auto;">
-                        <p align="center">
-                            <table class="navbar" align="center" width="99%" height="27px">
-                                <tr>
-                                    <td class="navStart"></td>
-                                    <td><a href="default.htm">Home</a></td>
-                                    <td class="selected"><a href="calendar.htm">Calendar</a></td>
-                                    <td><a href="workshops.htm">Workshops</a></td>
-                                    <td><a href="music.htm">Music</a></td>
-                                    <td><a href="writings.htm">Writings</a></td>
-                                    <td><a href="bio.htm">Bio</a></td>
-                                    <td><a href="contact.htm">Contact</a></td>
-                                    <td class="navEnd"></td>
-                                </tr>
-                            </table>
-                            <img src="images/mamas_minstrel_new_c_om-opt.jpg" width="100%" alt="Mama's Minstrel | Nancy Vedder-Shults, Ph.D."><br>
+        <p>If you want to schedule an event, please contact Kristen Townsend at <a href="mailto:nancyveddershults@gmail.com">nancyveddershults@gmail.com</a><br>
+            <br>
+        </p>
 
-                            <br>
-                            <h1 class="heading_one">Calendar</h1>
-                        </p>
+        <div id="eventCalendarDefault"></div>
 
-                        <p>
-                            <img src="images/AntlerBird-sm-opt.jpg" width="154" height="200" align="right">
-                        </p>
+        <div id="footer"></div>
 
-                        <h2>TWIYO Events March – June 2017</h2>
+    </div>
+</body>
 
-                        <table class="calendarEvents">
-                            <tr>
-                                <td>March 14:</td>
-                                <td>Interview with Selena Fox for her Blog Talk Radio program "Nature Folk"</td>
-                            </tr>
-                            <tr>
-                                <td>March 24-25:</td>
-                                <td>Association for the Study of Women and Mythology Conference in Philadelphia</td>
-                            </tr>
-                            <tr>
-                                <td>March 31: </td>
-                                <td>7 p.m. Book Launch Party at First Unitarian Society (900 University Bay Dr.) in Madison</td>
-                            </tr>
-                            <tr>
-                                <td>April 7: </td>
-                                <td>6 p.m. Book Launch at A Room of One's Own Bookstore (315 W. Gorham) in Madison</td>
-                            </tr>
-                            <tr>
-                                <td>April 17, 24, May 8, 15: </td>
-                                <td>7 p.m. Class at Threshold Center (2717 Atwood Ave.) in Madison. Register by emailing me at
-                                    <a href="mailto:Nancy@mamasminstrel.net">Nancy@mamasminstrel.net</a></td>
-                            </tr>
-                            <tr>
-                                <td>April 18, 25, May 9, 16: </td>
-                                <td>7 p.m. Class at First Unitarian Society (900 University Bay Dr.), Madison. Register with
-                                    JanetS@FUSMadison.org
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>April 28-29: </td>
-                                <td>Weekend workshop at First Unitarian Universalist Congregation in Brooklyn, NY. How will this
-                                    work? ???April 30: Book Launch Party at Molasses Books (770 Hart St.) in Brooklyn, still
-                                    don’t know when or which date May 5-6: Weekend workshop at Daya Yoga in Brooklyn, NY.
-                                    Register at
-                                    <a href="http://Dayayogastudio.com/">Daya Yoga Studio</a></td>
-                            </tr>
-                            <tr>
-                                <td>May 10: </td>
-                                <td>8 p.m. CST Interview with Karen Tate on “Voices of the Sacred Feminine,” Blog Talk Radio
-                                    May 19-20: Priestess Gathering of the Reformed Congregation of the Goddess May 26 - 29:
-                                    Wiscon Science Fiction and Fantasy Con in Madison, WI, at the Concourse Hotel </td>
-                            </tr>
-                            <tr>
-                                <td>June 18: </td>
-                                <td>Sermon on my book at First Unitarian Society, Madison</td>
-                            </tr>
-                            <tr>
-                                <td>June 21 - 25: </td>
-                                <td>General Assembly of the Unitarian Universalist Association in New Orleans sometime around</td>
-                            </tr>
-                            <tr>
-                                <td>July 6: </td>
-                                <td>Short workshop at the National Women's Music Festival in Madison</td>
-                            </tr>
+<!-- plugin has dependency of moment.js to show dates -->
+<script src="app/lib/jQueryEventCalendar/js/moment.js" type="text/javascript"></script>
 
-                        </table>
-                        <p>If you want to schedule an event, please contact my publicist, Arlene Johnson, at Arlene Johnson
-                            &amp; Associates, (918) 493-1994. <a href="mailto:AJohnsonPR@cox.net">AJohnsonPR@cox.net</a><br>
-                            <br>
-                        </p>
-                        <p align="center" style="font-size: .98em;">
-                            <a href="default.htm">Home</a> | <span class="nolink">Calendar</span> | <a href="workshops.htm">Workshops</a>                            | <a href="music.htm"> Music</a> |
-                            <a href="bio.htm"></a> <a href="writings.htm">Writings</a> |<a href="bio.htm">Bio</a> | <a href="contact.htm">Contact</a><br>
-                        </p>
-                        <table width="100%" border="0" align="center">
-                            <tr bgcolor="#990000">
-                                <td height="4" bgcolor="#990000">
-                                    <div align="center"><img src="images/transpix.GIF" width="1" height="1"></div>
-                                </td>
-                            </tr>
-                        </table>
-                        <p align="center"><span class="smallheadline1">Mama's Minstrel</span><br> Nancy Vedder-Shults, Ph.D.<br>
-                            <a href="mailto:nancy@mamasminstrel.net?Subject=Mama%27s%20Minstrel....">nancy@mamasminstrel.net</a>
-                            <p align="center"><span class="heading_one">For Bookings</span><br>
-                                <br> Contact Arlene Johnson at<br> Arlene Johnson &amp; Associates<br> (918) 493-1994<br>                                or <a href="mailto:AJohnsonPR@cox.net">AJohnsonPR@cox.net</a>
-                            </p>
-                            <p align="center"> <br>
-                                <font face="Verdana, Arial, Helvetica, sans-serif"><img src="images/oak_b-opt.jpg" width="235" height="194"></font><br>
-                            </p>
-                </td>
-            </tr>
-        </table>
-</BODY>
+<script src="app/lib/jQueryEventCalendar/js/jquery.eventCalendar.js" type="text/javascript"></script>
 
-</HTML>
+<script>
+    $(document).ready(function () {
+        $("#eventCalendarDefault").eventCalendar({
+            eventsjson: 'app/js/events.json', // link to events json
+            eventsLimit: 10,
+            startWeekOnMonday: false,
+            showDescription: true,
+            openLinkInNewWindow: false,
+            dateFormat: 'MMM D, YYYY',
+            jsonDateFormat: 'human'
+        });
+
+    });
+
+</script>
+
+</html>
