@@ -9,9 +9,11 @@
     url:
    		http://www.vissit.com/projects/eventCalendar/
 */
+var $ = require("jquery")
 var moment = require("moment")
+require('kendo.window')
 
-module.exports = (function ($) {
+module.exports = function () {
 	$.fn.eventCalendar = function (options) {
 		var calendar = this;
 
@@ -22,7 +24,7 @@ module.exports = (function ($) {
 				moment.locale(data.locale);
 
 				initEventCalendar(calendar, options);
-			}).error(function () {
+			}).fail(function () {
 				showError("error getting locale json", $(this));
 			});
 		} else {
@@ -128,12 +130,12 @@ module.exports = (function ($) {
 				e.preventDefault();
 				var desc = $(this).parent().find(".eventCalendar-eventDesc");
 
-				if (!desc.find("a").size()) {
+				if (!desc.find("a").length) {
 					var eventUrl = $(this).attr("href");
 					var eventTarget = $(this).attr("target");
 
 					// create a button to go to event url
-					desc.append('<a href="' + eventUrl + '" target="' + eventTarget + '" class="bt">' + eventsOpts.locales.txt_GoToEventUrl + '</a>');
+					// desc.append('<a href="' + eventUrl + '" target="' + eventTarget + '" class="bt">' + eventsOpts.locales.txt_GoToEventUrl + '</a>');
 				}
 
 				if (desc.is(":visible")) {
@@ -298,7 +300,7 @@ module.exports = (function ($) {
 			$.getJSON(eventsOpts.eventsjson + "?limit=" + limit + "&year=" + year + "&month=" + month + "&day=" + day, function (data) {
 				flags.eventsJson = data; // save data to future filters
 				getEventsData(flags, eventsOpts, flags.eventsJson, limit, year, month, day, direction);
-			}).error(function () {
+			}).fail(function () {
 				showError("error getting json: ", flags.wrap);
 			});
 		} else {
@@ -492,6 +494,5 @@ module.exports = (function ($) {
 		flags.wrap.find(".eventCalendar-monthWrap").width(flags.wrap.width() + "px");
 
 		flags.wrap.find(".eventCalendar-list-wrap").width(flags.wrap.width() + "px");
-
 	}
-});
+};
