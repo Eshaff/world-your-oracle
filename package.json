@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack --config mywebpack.config.js"
   },
   "author": "Dominic Hartjes",
   "license": "ISC",
@@ -13,6 +13,7 @@
     "requirejs": "^2.3.3"
   },
   "devDependencies": {
-    "kendo-ui-core": "^2017.1.330"
+    "kendo-ui-core": "^2017.1.330",
+    "webpack": "^2.3.2"
   }
 }
