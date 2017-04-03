@@ -1,14 +1,19 @@
-import _ from 'lodash';
-import 'kendo-ui-core';
+var $ = require('jquery')
 
-console.log(kendo);
+require('kendo.dropdownlist')
 
-function component(){
-	var element = document.createElement('div');
+$("#ddl").kendoDropDownList({
+	dataTextField: "text",
+	dataValueField: "value",
+	dataSource: [
+		{ text: "Item1", value: "1" },
+		{ text: "Item2", value: "2" }
+	]
+});
 
-	element.innerHTML = _.join(['Hello','webpack'], ' ');
+$(document).ready(function () {
+	var layout = require('js/layout');
+	require('js/rotator');
 
-	return element;
-}
-
-document.body.appendChild(component());
+	layout();
+});
