@@ -85,7 +85,7 @@ module.exports = function () {
 		that.each(function () {
 
 			flags.wrap = $(this);
-			flags.wrap.addClass("eventCalendar-wrap").append("<div class='eventCalendar-list-wrap'><p class='eventCalendar-subtitle'></p><span class='eventCalendar-loading'>" + eventsOpts.locales.txt_loading + "</span><div class='eventCalendar-list-content'><ul class='eventCalendar-list'></ul></div></div>");
+			flags.wrap.addClass("eventCalendar-wrap").append("<div class='eventCalendar-list-wrap'><p class='eventCalendar-subtitle floatLeft'></p><p class='myEventCalendar-subtitle red tab floatLeft'>Click on an event for more info!</p><div class='clearFloat'></div><span class='eventCalendar-loading'>" + eventsOpts.locales.txt_loading + "</span><div class='eventCalendar-list-content'><ul class='eventCalendar-list'></ul></div></div>");
 
 			if (eventsOpts.eventsScrollable) {
 				flags.wrap.find(".eventCalendar-list-content").addClass("scrollable");
@@ -428,7 +428,7 @@ module.exports = function () {
 								}
 
 								var eventTimeDisplay = eventShowTime ? '<small>' + eventHour + ":" + eventMinute + ' ' + eventAmPm + '</small>' : '';
-								events.push('<li id="' + key + '" class="' + event.type + '"><time datetime="' + eventDate + '"><em>' + eventStringDate + '</em>' + eventTimeDisplay + '</time>' + eventTitle + '<p class="eventCalendar-eventDesc ' + eventDescClass + '">' + event.description + '</p></li>');
+								events.push('<li id="' + key + '" class="' + event.type + '"><time datetime="' + eventDate + '"><em>' + eventStringDate + '</em>' + eventTimeDisplay + '</time>' + eventTitle + '<div class="eventCalendar-location">' + event.location + '</div><p class="eventCalendar-eventDesc ' + eventDescClass + '">' + event.description + '</p></li>');
 								i++;
 							}
 						}

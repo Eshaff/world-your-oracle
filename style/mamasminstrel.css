@@ -72,6 +72,24 @@ h5 {
     font-size: 75%;
 }
 
+.tab {
+    padding-left: 25px !important;
+}
+
+.floatLeft {
+    float: left !important;
+}
+
+.clearFloat {
+    clear: both !important;
+}
+
+/* Site Colors */
+
+.red {
+    color: #99402e;
+}
+
 .smallheadline2 {
     font-weight: bold;
     color: #33291E;
@@ -275,6 +293,12 @@ div#footer a, div#footer a:hover{
 }
 
 /*Calendar Page*/
+
+.myEventCalendar-subtitle {
+	padding: 10px 0 0 5px;
+	font-weight: bold;
+	font-size: 120%;
+}
 
 table.calendarEvents tr td:first-child {
     white-space: nowrap;

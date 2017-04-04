@@ -1,4 +1,11 @@
  /* Theme CSS */
+.eventCalendar-location {
+	font-size: 95%;
+	line-height: 1.2em;
+	padding-bottom: 10px;
+	font-style: italic;
+}
+
  html {
 	background-color:#eee;
  }
