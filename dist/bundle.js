@@ -15356,7 +15356,7 @@ $(document).ready(function () {
 
 	// EventCalendar for the Calendar page
 	$("#eventCalendarDefault").eventCalendar({
-		eventsjson: 'app/js/events.json', // link to events json
+		eventsjson: 'app/js/myEvents.json',
 		eventsLimit: 10,
 		startWeekOnMonday: false,
 		openLinkInNewWindow: false,
