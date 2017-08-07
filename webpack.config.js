@@ -12,10 +12,6 @@ module.exports = {
 			path.resolve(__dirname, "app/lib/jQueryEventCalendar/js")
 			//<script src="app/lib/jQueryEventCalendar/js/moment.js" type="text/javascript"></script>
 			// <script src="app/lib/jQueryEventCalendar/js/jquery.eventCalendar.js" type="text/javascript"></script>
-
-
-
-
 		]
 	},
 	entry: "./app/index.js",
