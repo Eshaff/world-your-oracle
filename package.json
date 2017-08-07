@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack-dev-server"
   },
   "author": "Dominic Hartjes",
   "license": "ISC",
@@ -14,6 +14,7 @@
   },
   "devDependencies": {
     "kendo-ui-core": "^2017.1.330",
-    "webpack": "^2.3.2"
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.6.1"
   }
 }
