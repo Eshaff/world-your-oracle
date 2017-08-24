@@ -1,3 +1,19 @@
+img.image-large {
+    float: left; 
+    padding-right: 10px;
+    width: 450px;
+    /*style="padding-right: 10px; padding-top: 5px; width: 450px" */
+}
+
+.wrap-image {
+    float: "left";
+}
+
+.main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
 body {
     font-size: 100%;
     color: #64492D;
@@ -49,6 +65,7 @@ h1 {
     font-family: arial, helvetica, sans-serif;
     font-weight: 700;
     font-size: 130%;
+    padding-top: 20px;
 }
 
 h2 {
@@ -95,6 +112,7 @@ h5 {
     color: #33291E;
     font-size: 92%;
 }
+
 .HeadingOne {
     color: #000000;
     font-family: arial, helvetica, sans-serif;
@@ -253,6 +271,18 @@ table.navbar td.navEnd {
     color: #A96538;
 }
 
+h1.page-title {
+    color: #A96538;
+    font-family: arial, helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 150%;
+    padding-top: 2px;
+    margin: 2px auto 15px;
+    clear: both;
+    text-align: center;
+}
+
+
 .quotes {
     font-style: italic;
     color: #9D3E1E;
@@ -286,6 +316,9 @@ aside span {
     width: 300px;
 }
 
+div#footer {
+    padding-top: 20px;
+}
 div#footer a, div#footer a:hover{
     text-decoration:none;
     font-weight: bold;

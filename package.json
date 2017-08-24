@@ -15,6 +15,7 @@
   "devDependencies": {
     "kendo-ui-core": "^2017.1.330",
     "webpack": "^3.4.1",
+    "webpack-deploy": "github:productboard/webpack-deploy",
     "webpack-dev-server": "^2.6.1"
   }
 }
